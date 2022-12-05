@@ -1,0 +1,26 @@
+
+<!-- html page for: check-state-result (accepted) --> 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>check_state_result</title>
+    </head>
+
+    <body>
+        <h2>State: {{ state }}</h2>
+        <h2>Your ad has been accepted :)</h2>
+        <h3>----------------------------------------------------------------------</h3>
+        <p>id: {{ id }}</p>
+        <p>Email: {{ email }}</p>
+        <p>Category: {{ category }}</p>
+        <p>Description: {{ description }}</p>
+        <p>Image:</p>
+        <img src="static/downloads/{{ id }}.png" alt="User Image" alt="ad image" width="300" height="300" >
+        <h3>----------------------------------------------------------------------</h3>
+        <p><a href="/check_state">Click here to check the status of other ads!</a></p>
+    </body>
+</html>    
+
+

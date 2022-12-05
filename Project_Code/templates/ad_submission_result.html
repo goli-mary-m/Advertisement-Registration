@@ -1,0 +1,25 @@
+
+<!-- html page for: advertisement-submission-result --> 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ad_submission_result</title>
+    </head>
+
+    <body>
+        <h2>Your ad has been successfully submitted! (id = {{ ad_id }})</h2>
+        <h2>We will inform you about the result of the ad registration via email ...</h2>
+        <h3>----------------------------------------------------------------------</h3>
+        <h3>Submitted ad:</h3>
+        <p>id: {{ ad_id }}</p>
+        <p>Email: {{ email }}</p>
+        <p>Description: {{ description }}</p>
+        <p>Image: {{ image_filename }}</p>
+        <h3>----------------------------------------------------------------------</h3>
+        <p><a href="/ad_submission">Click here to submit a new ad!</a></p>
+    </body>
+</html>    
+
+
